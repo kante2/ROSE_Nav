@@ -1,1 +1,4 @@
 # ROSE_Nav
+A robot asked to find the bedside table closest to a window needs to see both objects and establish their spatial relationship. A viewpoint that reveals a large unexplored area can still leave one of them occluded.
+
+ROSE-Nav combines exploration of unknown space with additional views of objects mentioned in the instruction. A room–viewpoint–object scene graph stores visual evidence, and each object’s observation history identifies sides that warrant another look. The planner uses room relevance to weight visible frontiers and object footprints, samples complementary viewpoints, and orders them into a route.
